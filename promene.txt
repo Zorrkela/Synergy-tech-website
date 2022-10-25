@@ -1,0 +1,9 @@
+3 najaktuelnija projekta
+editovati snimke iz foldera snimciGradilista do 1:05 min
+napraviti najaktulniji modul za projekte u toku
+zavrsite seo
+prevesti na nemacki do kraja
+reference poredjati u 3x3 formatu ( 3 se otvara odmah po znacaju za ostatak potrebno kliknuti dugme za otvaranja 3 nova i tako do kraja)
+dopuniti reference sa slikama
+ubaciti strelicu koja pokazuje ka dole ispod naziva strane na banner slikama
+klikom na naziv stranice na banner slici sajt automatski spusta korisnika na content te strane

@@ -1,0 +1,61 @@
+<app-navbar></app-navbar>
+
+<div class="hero">
+  <div class="hero-text"></div>
+
+  <main>
+    <div class="gradient">
+      <video [muted]="'muted'" autoplay loop id="videoPoc">
+        <source src="assets\images\Videozasajt1.mp4" type="video/mp4" />
+        Vas web pretrazivac ne podrzava video snimak.
+      </video>
+    </div>
+  </main>
+</div>
+
+<div class="wrapper">
+  <img src="assets/images/stlogo.png" alt="Synergy tech logo" />
+
+  <div class="text">
+    <h1>O NAMA...</h1>
+    <p>
+      <STRONG>Synergy tech d.o.o.</STRONG> je privredno društvo specijalizovano
+      za montažu svih vrsta cevovoda, rezervoara, čeličnih konstrukcija i
+      industrijskih postrojenja u oblastima procesne tehnike, termotehnike i
+      gasne tehnike.
+    </p>
+    <div class="frame">
+      <button class="custom-btn btn-5" routerLink="/onama">
+        <span>Saznaj više</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="bar"></div>
+
+<div class="wrapper">
+  <img src="assets/projects/gazela/g9.jpg" alt="Varioc na cevi" />
+
+  <div class="text">
+    <h1>Aktuelni projekti...</h1>
+    <p>
+      Uvek radimo na važnim projektima na koje smo veoma ponosni. Neki od naših
+      najnovijih uključuju:
+    </p>
+
+    <ol>
+      <li>Obrenovac</li>
+      <li>Peke Dapcevica</li>
+      <li>Kostolac</li>
+    </ol>
+
+    <div class="frame">
+      <button class="custom-btn btn-5" routerLink="/projekti">
+        <span>Saznaj više</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

@@ -1,0 +1,130 @@
+<div style="background-color: #f2f2f2">
+  <app-navbar-en></app-navbar-en>
+
+  <div class="hero">
+    <div class="hero-text">
+      <H1><U>OUR PROJECTS</U></H1>
+      <p>From the beginning, we strive to be a part of interesting projects.</p>
+    </div>
+
+    <img src="assets/images/project3.jpg" alt="Building complex from above" />
+  </div>
+
+  <div class="wrapper">
+    <H1>Reference</H1>
+    <mat-tab-group mat-align-tabs="center">
+      <mat-tab label="MANIPULATIVE OIL PIPELINE JANAF">
+        <p class="desc">
+          Construction of part of the manipulative oil pipeline DN1000, for
+          feeding the tank. Investor: OIP d.o.o. Zagreb – Janaf, Croatia,
+          2017-2018
+        </p>
+        <div class="media">
+          <div *ngFor="let image of mNaftovod">
+            <img [src]="image" alt="oil pipeline" />
+          </div>
+        </div>
+      </mat-tab>
+    </mat-tab-group>
+    <mat-tab-group mat-align-tabs="center">
+      <mat-tab label="BALKANSKA STREET">
+        <p class="desc">
+          Replacement of hot water pipeline in Balkanska street,
+          DN250,Investor:JKP Beogradske elektrane, Belgrade, Serbia, 2018
+        </p>
+
+        <div class="media">
+          <div *ngFor="let image of balkanska">
+            <img [src]="image" alt="Balkanska street" />
+          </div>
+        </div>
+      </mat-tab>
+    </mat-tab-group>
+    <mat-tab-group mat-align-tabs="center">
+      <mat-tab label="RECONSTRUCTION OF THE HEAT PIPE OVER GAZELA BRIDGE">
+        <p class="desc">
+          Reconstruction of the main M6 heat pipe over the Gazela bridge DN750,
+          Investor: JKP Beogradske elektrane, Belgrade, Serbia, 2018
+        </p>
+
+        <div class="media">
+          <div *ngFor="let image of gazela">
+            <img [src]="image" alt="gazela bridge" />
+          </div>
+        </div>
+      </mat-tab>
+    </mat-tab-group>
+    <mat-tab-group mat-align-tabs="center">
+      <mat-tab label="RECONSTRUCTION OF THE HEAT PIPE IN KARLOVAC">
+        <p class="desc">
+          Rekonstrukcija magistralnog toplovoda M6 preko mosta Gazela DN750,
+          Investitor: JKP Beogradske elektrane, 2018.g.
+        </p>
+
+        <div class="media">
+          <div *ngFor="let image of karlovac">
+            <img [src]="image" alt="karlovac" />
+          </div>
+        </div>
+      </mat-tab>
+    </mat-tab-group>
+    <mat-tab-group mat-align-tabs="center">
+      <mat-tab label="RECONSTRUCTION OF THE HEAT PIPE IN OBRENOVAC">
+        <p class="desc">
+          Rekonstrukcija magistralnog toplovoda M6 preko mosta Gazela DN750,
+          Investitor: JKP Beogradske elektrane, 2018.g.
+        </p>
+
+        <div class="media">
+          <div *ngFor="let image of obrenovac">
+            <img [src]="image" alt="obrenovac" />
+          </div>
+        </div>
+      </mat-tab>
+    </mat-tab-group>
+    <mat-tab-group mat-align-tabs="center">
+      <mat-tab label="RECONSTRUCTION OF THE HEAT PIPE IN PEKE DAPCEVICA STREET">
+        <p class="desc">
+          Rekonstrukcija magistralnog toplovoda M6 preko mosta Gazela DN750,
+          Investitor: JKP Beogradske elektrane, 2018.g.
+        </p>
+
+        <div class="media">
+          <div *ngFor="let image of pekeD">
+            <img [src]="image" alt="Peke Dapcevica street" />
+          </div>
+        </div>
+      </mat-tab>
+    </mat-tab-group>
+    <mat-tab-group mat-align-tabs="center">
+      <mat-tab label="CONSTRUCTION OF HEAT PIPE IN SREMSKA MITROVICA">
+        <p class="desc">
+          Rekonstrukcija magistralnog toplovoda M6 preko mosta Gazela DN750,
+          Investitor: JKP Beogradske elektrane, 2018.g.
+        </p>
+
+        <div class="media">
+          <div *ngFor="let image of sremskaMitrovica">
+            <img [src]="image" alt="Sremska Mitrovica" />
+          </div>
+        </div>
+      </mat-tab>
+    </mat-tab-group>
+    <mat-tab-group mat-align-tabs="center">
+      <mat-tab label="RECONSTRUCTION OF THE HEAT PIPE IN BARANJSKA STREET">
+        <p class="desc">
+          Rekonstrukcija magistralnog toplovoda M6 preko mosta Gazela DN750,
+          Investitor: JKP Beogradske elektrane, 2018.g.
+        </p>
+
+        <div class="media">
+          <div *ngFor="let image of baranjska">
+            <img [src]="image" alt="Baranjaska street" />
+          </div>
+        </div>
+      </mat-tab>
+    </mat-tab-group>
+  </div>
+
+  <app-footer-en></app-footer-en>
+</div>

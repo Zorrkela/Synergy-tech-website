@@ -1,0 +1,132 @@
+<div style="background-color: #f2f2f2">
+  <app-navbar></app-navbar>
+
+  <div class="hero">
+    <div class="hero-text">
+      <H1><U>NAŠE REFERENCE</U></H1>
+      <p>Od našeg osnivanja trudimo se da budemo deo zanimljivih projekata.</p>
+    </div>
+
+    <img src="assets/images/project3.jpg" alt="Kompleks zgrada" />
+  </div>
+
+  <div class="wrapper">
+    <H1>Reference</H1>
+    <mat-tab-group mat-align-tabs="center">
+      <mat-tab label="MANIPULATIVNI NAFTOVOD JANAF">
+        <p class="desc">
+          Izgradnja dela manipulativnog naftovoda DN1000, za napajanje
+          rezervoara. Investitor: OIP d.o.o. Zagreb – Janaf,
+          Hrvatska,2017-2018.g.
+        </p>
+        <div class="media">
+          <div *ngFor="let image of mNaftovod">
+            <img [src]="image" alt="Slike naftovoda" />
+          </div>
+        </div>
+      </mat-tab>
+    </mat-tab-group>
+    <mat-tab-group mat-align-tabs="center">
+      <mat-tab label="BALKANSKA ULICA">
+        <p class="desc">
+          Toplovod Ul. Balkanska, DN250-Beograd,Investitor:JKP Beogradske
+          elektrane, 2018.g.
+        </p>
+
+        <div class="media">
+          <div *ngFor="let image of balkanska">
+            <img [src]="image" alt="Balkanska ulica" />
+          </div>
+        </div>
+      </mat-tab>
+    </mat-tab-group>
+    <mat-tab-group mat-align-tabs="center">
+      <mat-tab label="REKONSTRUKCIJA TOPLOVODA PREKO MOSTA GAZELA">
+        <p class="desc">
+          Rekonstrukcija magistralnog toplovoda M6 preko mosta Gazela DN750,
+          Investitor: JKP Beogradske elektrane, 2018.g.
+        </p>
+
+        <div class="media">
+          <div *ngFor="let image of gazela">
+            <img [src]="image" alt="Most Gazela" />
+          </div>
+        </div>
+      </mat-tab>
+    </mat-tab-group>
+    <mat-tab-group mat-align-tabs="center">
+      <mat-tab label="REKONSTRUKCIJA TOPLOVODA U KARLOVCU">
+        <p class="desc">
+          Rekonstrukcija magistralnog toplovoda M6 preko mosta Gazela DN750,
+          Investitor: JKP Beogradske elektrane, 2018.g.
+        </p>
+
+        <div class="media">
+          <div *ngFor="let image of karlovac">
+            <img [src]="image" alt="Karlovac" />
+          </div>
+        </div>
+      </mat-tab>
+    </mat-tab-group>
+    <mat-tab-group mat-align-tabs="center">
+      <mat-tab label="REKONSTRUKCIJA TOPLOVODA U OBRENOVCU">
+        <p class="desc">
+          Magistralni toplovod III, 9km, DN700/500, Investitor: ’’Toplovod’’
+          Obrenovac d.o.o., 2018.g.
+        </p>
+
+        <div class="media">
+          <div *ngFor="let image of obrenovac">
+            <img [src]="image" alt="Obrenovac" />
+          </div>
+        </div>
+      </mat-tab>
+    </mat-tab-group>
+
+    <mat-tab-group mat-align-tabs="center">
+      <mat-tab label="REKONSTRUKCIJA TOPLOVODA U ULICI PEKE DAPCEVICA">
+        <p class="desc">
+          Rekonstrukcija magistralnog toplovoda M6 preko mosta Gazela DN750,
+          Investitor: JKP Beogradske elektrane, 2018.g.
+        </p>
+
+        <div class="media">
+          <div *ngFor="let image of pekeD">
+            <img [src]="image" alt="Peke Dapcevica" />
+          </div>
+        </div>
+      </mat-tab>
+    </mat-tab-group>
+
+    <mat-tab-group mat-align-tabs="center">
+      <mat-tab label="IZGRADNJA TOPLOVODA U SREMSKOJ MITROVICI">
+        <p class="desc">
+          Izgradnja magistralnog toplovoda, DN400 Sremska Mitrovica, Investitor:
+          JKP Toplifikacija, 2020.g.
+        </p>
+
+        <div class="media">
+          <div *ngFor="let image of sremskaMitrovica">
+            <img [src]="image" alt="Sremska Mitrovica" />
+          </div>
+        </div>
+      </mat-tab>
+    </mat-tab-group>
+    <mat-tab-group mat-align-tabs="center">
+      <mat-tab label="REKONSTRUKCIJA TOPLOVODA U ULICI BARANJSKA">
+        <p class="desc">
+          Rekonstrukcija magistralnog toplovoda M6 preko mosta Gazela DN750,
+          Investitor: JKP Beogradske elektrane, 2018.g.
+        </p>
+
+        <div class="media">
+          <div *ngFor="let image of baranjska">
+            <img [src]="image" alt="Baranjska" />
+          </div>
+        </div>
+      </mat-tab>
+    </mat-tab-group>
+  </div>
+
+  <app-footer></app-footer>
+</div>

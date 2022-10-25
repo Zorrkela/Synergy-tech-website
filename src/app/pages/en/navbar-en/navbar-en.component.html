@@ -1,0 +1,39 @@
+<div id="fix"></div>
+<nav>
+  <div id="logo">
+    <img src="assets/images/stlogo.png" alt="Synergy tech logo" />
+  </div>
+
+  <ul id="links">
+    <li class="link"><a routerLink="/home">Home</a></li>
+    <li class="link">
+      <a routerLink="/about" style="white-space: nowrap">About</a>
+    </li>
+    <li class="link"><a routerLink="/services">Services</a></li>
+    <li class="link"><a routerLink="/sertificates">Sertificates</a></li>
+    <li class="link"><a routerLink="/projects">Reference</a></li>
+  </ul>
+
+  <div id="languages">
+    <img
+      id="srbslika"
+      src="assets/images/zastavaSrb.png"
+      (click)="navigateToSerbia()"
+      alt="Flag of Serbia"
+    />
+    <img
+      id="srbslika"
+      src="assets/images/zastavaEng.png"
+      (click)="navigateToEnglish()"
+      alt="Flag of UK"
+    />
+    <img
+      id="srbslika"
+      src="assets/images/zastavaNem.png"
+      (click)="navigateToGerman()"
+      alt="Flag of Germany"
+    />
+  </div>
+</nav>
+
+<router-outlet></router-outlet>

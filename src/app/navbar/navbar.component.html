@@ -1,0 +1,39 @@
+<div id="fix"></div>
+<nav>
+  <div id="logo">
+    <img src="assets/images/stlogo.png" alt="logo" />
+  </div>
+
+  <ul id="links">
+    <li class="link"><a routerLink="/pocetna">Početna</a></li>
+    <li class="link">
+      <a routerLink="/onama" style="white-space: nowrap">O nama</a>
+    </li>
+    <li class="link"><a routerLink="/delatnosti">Delatnosti</a></li>
+    <li class="link"><a routerLink="/sertifikati">Sertifikati</a></li>
+    <li class="link"><a routerLink="/projekti">Reference</a></li>
+  </ul>
+
+  <div id="languages">
+    <img
+      id="srbslika"
+      src="assets/images/zastavaSrb.png"
+      (click)="navigateToSerbia()"
+      alt="Zastava Srbije"
+    />
+    <img
+      id="srbslika"
+      src="assets/images/zastavaEng.png"
+      (click)="navigateToEnglish()"
+      alt="Zastava UK"
+    />
+    <img
+      id="srbslika"
+      src="assets/images/zastavaNem.png"
+      (click)="navigateToGerman()"
+      alt="Zastava Nemacke"
+    />
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
